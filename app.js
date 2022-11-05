@@ -4,6 +4,7 @@
 // 1.2. Within a function, what is the difference between return and console.log?
 // return displays the value from a function, while console.log prints variables and messages.
 // 1. 3. What are the implications of the ability of a function to return a value?
+// the implications are that the function has completed its task when returning a vlaue, allowing the computer to understand the argument. 
 
 // 2. calculateCube
 function calculateCube(num) {
