@@ -8,29 +8,43 @@
 
 // 2. calculateCube
 
-function calculateCube(height, width, length) {
-    let calculateCube = 5;
-    amountVolume = parseFloat(length) * parseFloat(width) * 
-    parseFloat(height);
-    var volumeRound = amountVolume.toFixed(2);
-        $('volume').value = volumeRound;
+function calculateCube(volume) {
+    let num = 5
+    for(let x = 0; x = volume; x++) {
+
+    }
+
 }
-console.log(calcultaeCube(5));
+   
 
 // 3. isAVowel
 function isAVowel(letter) {
     // YOUR CODE HERE
+    let vowel = 'aeiouAEIOU';
+    for(let x = 0; x < letter.length; x++) {
+        if (vowel.indexOf(letter[x] === 1)) {
+            return 'true';
+        } else {
+            return 'false';
+        }
+    }
 }
+            console.log(isAVowel("k"));
+
 
 // 4. getTwoLengths
 function getTwoLengths(word1, word2) {
     // YOUR CODE HERE
+    
 }
 
 // 5. sumArray
+
 function sumArray(arr) {
-    // YOUR CODE HERE
+
 }
+
+
 
 // 6.1 checkPrime
 function checkPrime(num) {
