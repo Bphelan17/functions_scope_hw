@@ -34,16 +34,36 @@ function isAVowel(letter) {
 // 4. getTwoLengths
 function getTwoLengths(word1, word2) {
     // YOUR CODE HERE
-    let word1 = 'Hank, Hippopalous'
-    for(let word1 = 0; word1 < word1.length; x++) {
-        if (word1 === 'Hank') {
-            return word1.length;
-       } else {
-        return word2.length;
-       }
-    }
+     return [word1.length, word2.length];
+    
+    
 }
         console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+       // over complicated extra code that works just not properly, want to keep to reference in the future.
+        // for(let i = 0; i < word1.length; i++) {
+    //     if (word1 === 'Hank') {
+    //         return word1.length; 
+    // for(let i = 0; i < word2.length; i++) {
+    //     } if (word2 === 'Hippopopalous') {
+    //         return word2.length;
+    //         }
+    //     }
+    // }
+
+
+        // function getTwoLengths(word1, word2) {
+        //     // YOUR CODE HERE
+        //     let words = 'Hank, Hippopopalous';
+        //     for(let i = 0; i < words.length; x++) {
+        //         if (word1 === 'Hank, Hippopopalous') {
+        //             return words.length;
+        //         } if (word2 === 'Hippopopalous') {
+        //         return words.length;
+        //        }
+        //     }
+        // }
+        //         console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 // 5. sumArray
 
@@ -70,6 +90,7 @@ function printPrimes(num) {
 // 7. printLongestWord
 function printLongestWord(arr) {
     // YOUR CODE HERE
+
 }
 
 // BONUS!
