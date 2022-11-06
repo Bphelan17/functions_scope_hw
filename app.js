@@ -8,13 +8,12 @@
 
 // 2. calculateCube
 
-function calculateCube(volume) {
-    let num = 5
-    for(let x = 0; x = volume; x++) {
+// function calculateCube(volume) {
+//     for(let x = 0; x < volume.num; x*) {
 
-    }
+//     }
 
-}
+// }
    
 
 // 3. isAVowel
@@ -35,15 +34,27 @@ function isAVowel(letter) {
 // 4. getTwoLengths
 function getTwoLengths(word1, word2) {
     // YOUR CODE HERE
-    let word = x = 0; x 
+    let word1 = 'Hank, Hippopalous'
+    for(let word1 = 0; word1 < word1.length; x++) {
+        if (word1 === 'Hank') {
+            return word1.length;
+       } else {
+        return word2.length;
+       }
+    }
 }
+        console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 // 5. sumArray
 
 function sumArray(arr) {
-
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++) {
+        sum += arr[i]
+    }
+    return sum
 }
-
+    console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
 
 // 6.1 checkPrime
@@ -78,15 +89,15 @@ function sumPositive(arr) {
     // YOUR CODE HERE
 }
 
-module.exports = {
-    calculateCube,
-    isAVowel,
-    getTwoLengths,
-    sumArray,
-    checkPrime,
-    printPrimes,
-    printLongestWord,
-    eulerFibo,
-    findNeedle,
-    sumPositive
-};
+// module.exports = {
+//     calculateCube,
+//     isAVowel,
+//     getTwoLengths,
+//     sumArray,
+//     checkPrime,
+//     printPrimes,
+//     printLongestWord,
+//     eulerFibo,
+//     findNeedle,
+//     sumPositive
+// };
