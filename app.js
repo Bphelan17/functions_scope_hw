@@ -7,9 +7,15 @@
 // the implications are that the function has completed its task when returning a vlaue, allowing the computer to understand the argument. 
 
 // 2. calculateCube
-function calculateCube(num) {
-    // YOUR CODE HERE
+
+function calculateCube(height, width, length) {
+    let calculateCube = 5;
+    amountVolume = parseFloat(length) * parseFloat(width) * 
+    parseFloat(height);
+    var volumeRound = amountVolume.toFixed(2);
+        $('volume').value = volumeRound;
 }
+console.log(calcultaeCube(5));
 
 // 3. isAVowel
 function isAVowel(letter) {
