@@ -22,20 +22,20 @@ function isAVowel(letter) {
     // YOUR CODE HERE
     let vowel = 'aeiouAEIOU';
     for(let x = 0; x < letter.length; x++) {
-        if (vowel.indexOf(letter[x] === 1)) {
+        if (letter === 'aeiouAEIOU') {
             return 'true';
         } else {
             return 'false';
         }
     }
-}
+} 
             console.log(isAVowel("k"));
 
 
 // 4. getTwoLengths
 function getTwoLengths(word1, word2) {
     // YOUR CODE HERE
-    
+    let word = x = 0; x 
 }
 
 // 5. sumArray
