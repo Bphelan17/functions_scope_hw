@@ -8,18 +8,17 @@
 
 // 2. calculateCube
 
-// function calculateCube(volume) {
-//     for(let x = 0; x < volume.num; x*) {
+function calculateCube(num) {
+    // i want to cube a number, meaning multiply it by itself and the
+    // the cube of 5 should be 5*5*5 = 125
 
-//     }
-
-// }
+}
    
 
 // 3. isAVowel
 function isAVowel(letter) {
     // YOUR CODE HERE
-    let vowel = 'aeiouAEIOU';
+    // let vowel = 'aeiouAEIOU';
     for(let x = 0; x < letter.length; x++) {
         if (letter === 'aeiouAEIOU') {
             return 'true';
@@ -35,8 +34,7 @@ function isAVowel(letter) {
 function getTwoLengths(word1, word2) {
     // YOUR CODE HERE
      return [word1.length, word2.length];
-    
-    
+
 }
         console.log(getTwoLengths("Hank", "Hippopopalous"));
 
@@ -80,17 +78,30 @@ function sumArray(arr) {
 // 6.1 checkPrime
 function checkPrime(num) {
     // YOUR CODE HERE
+    // use math.sqrt in a for loop
+    for(let i = 2; i <= Math.sqrt(num); i++) {
+        if(num % i === 0) 
+        return false;
+    } 
+        return true;
 }
+    console.log(checkPrime(13));
+
+
 
 // 6.2 printPrimes
 function printPrimes(num) {
-    // YOUR CODE HERE
+    // YOUR code here
+    for(let i = 2; i <= num; i++) {
+        if(checkPrime(i)); console.log(i);
+    }
 }
+printPrimes(12)
 
 // 7. printLongestWord
 function printLongestWord(arr) {
     // YOUR CODE HERE
-
+    let longestArray = [0];
 }
 
 // BONUS!
@@ -98,6 +109,8 @@ function printLongestWord(arr) {
 // 8. eulerFibo
 function eulerFibo(num) {
     // YOUR CODE HERE
+    
+
 }
 
 // 9. findNeedle
@@ -110,15 +123,15 @@ function sumPositive(arr) {
     // YOUR CODE HERE
 }
 
-// module.exports = {
-//     calculateCube,
-//     isAVowel,
-//     getTwoLengths,
-//     sumArray,
-//     checkPrime,
-//     printPrimes,
-//     printLongestWord,
-//     eulerFibo,
-//     findNeedle,
-//     sumPositive
-// };
+module.exports = {
+    // calculateCube,
+    isAVowel,
+    getTwoLengths,
+    sumArray,
+    checkPrime,
+    printPrimes,
+    printLongestWord,
+    eulerFibo,
+    findNeedle,
+    sumPositive
+};
