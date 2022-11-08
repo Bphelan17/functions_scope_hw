@@ -9,11 +9,12 @@
 // 2. calculateCube
 
 function calculateCube(num) {
-    // i want to cube a number, meaning multiply it by itself and the
-    // the cube of 5 should be 5*5*5 = 125
-
+   // YOUR CODE HERE
+  return num * num * num
 }
-   
+console.log(calculateCube(5));
+
+
 
 // 3. isAVowel
 function isAVowel(letter) {
@@ -36,7 +37,7 @@ function getTwoLengths(word1, word2) {
      return [word1.length, word2.length];
 
 }
-        console.log(getTwoLengths("Hank", "Hippopopalous"));
+console.log(getTwoLengths("Hank", "Hippopopalous"));
 
        // over complicated extra code that works just not properly, want to keep to reference in the future.
         // for(let i = 0; i < word1.length; i++) {
@@ -101,8 +102,7 @@ printPrimes(12)
 // 7. printLongestWord
 function printLongestWord(arr) {
     // YOUR CODE HERE
-    let longestArray = [0];
-}
+  
 
 // BONUS!
 
