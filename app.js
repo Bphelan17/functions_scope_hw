@@ -2,11 +2,12 @@
 // a function parameter is the defintion of a function
 //a function argument is the value which passes through a function
 // 1.2. Within a function, what is the difference between return and console.log?
-// return displays the value from a function, while console.log prints variables and messages.
+// return displays the value from a function, while console.log pri/nts variables and messages.
 // 1. 3. What are the implications of the ability of a function to return a value?
 // the implications are that the function has completed its task when returning a vlaue, allowing the computer to understand the argument. 
 
 // 2. calculateCube
+// i messed up sorry
 
 function calculateCube(num) {
    // YOUR CODE HERE
